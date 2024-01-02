@@ -1,0 +1,39 @@
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif; 
+  }
+  .reload{
+    background: transparent;
+    border: none;
+    position: fixed;
+    cursor: pointer;
+  }
+  .icon{
+    width: 55px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .hot{
+    background: linear-gradient(45deg, orange , purple);
+  }
+  .nav{
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  a{
+    text-decoration: none;
+  }
+</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@350&display=swap" rel="stylesheet">
+<button onclick="reload()" class="reload"><img src="https://i.ibb.co/y5cphSg/icon.png" class="icon"></button>
+<script>
+  function reload(){
+    location.reload()
+  }
+</script>
